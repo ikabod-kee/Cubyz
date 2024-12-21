@@ -1,5 +1,7 @@
 .{
 	.properties = .{
+		.hot,
+		.dry,
 	},
 	.minHeight = 22,
 	.maxHeight = 40,
@@ -16,8 +18,8 @@
 	.structures = .{
 		.{
 			.id = "cubyz:ground_patch",
-			.block = "cubyz:soil",
-			.chance = 0.25,
+			.block = "cubyz:dirt",
+			.chance = 0.5,
 			.width = 2,
 			.variation = 4,
 			.depth = 5,

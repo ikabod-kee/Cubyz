@@ -1,6 +1,5 @@
 .{
 	.properties = .{
-		.hot,
 		.dry,
 		.land,
 	},
@@ -68,6 +67,13 @@
 			.width = 2,
 			.keepOriginalTerrain = 1,
 			.properties = .{.neitherWetNorDry, .inland, .land},
+		},
+		.{
+			.id = "cubyz:trans/savannah_widow",
+			.chance = 1,
+			.width = 2,
+			.keepOriginalTerrain = 1,
+			.properties = .{.dry, .hot, .inland, .land},
 		},
 	},
 
