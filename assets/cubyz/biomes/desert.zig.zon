@@ -4,9 +4,11 @@
 		.dry,
 		.land,
 	},
+	.chance = 2,
 	.minHeight = 22,
 	.maxHeight = 40,
-	
+	.minRadius = 256,
+	.maxRadius = 480,
 	.hills = 20,
 	
 	.music = "cubyz:EasternThought",
@@ -25,7 +27,7 @@
 	},
 	.transitionBiomes = .{
 		.{
-			.id = "cubyz:trans/coast",
+			.id = "cubyz:trans/sandy_coast",
 			.chance = 1,
 			.width = 2,
 			.keepOriginalTerrain = 0.5,

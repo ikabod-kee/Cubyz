@@ -27,6 +27,14 @@
 			.chance = 2,
 		},
 		.{
+			.id = "cubyz:rocky_grassland",
+			.chance = 32,
+		},
+		.{
+			.id = "cubyz:prairie",
+			.chance = 1,
+		},
+		.{
 			.id = "cubyz:fall_forest",
 			.chance = 2,
 		},
@@ -36,7 +44,7 @@
 		},
 		.{
 			.id = "cubyz:grassland",
-			.chance = 2,
+			.chance = 3,
 		},
 		.{
 			.id = "cubyz:rocky_grassland",
@@ -44,11 +52,11 @@
 		},
 		.{
 			.id = "cubyz:taiga",
-			.chance = 2,
+			.chance = 3,
 		},
 		.{
 			.id = "cubyz:forest",
-			.chance = 2,
+			.chance = 4,
 		},
 	},
 }

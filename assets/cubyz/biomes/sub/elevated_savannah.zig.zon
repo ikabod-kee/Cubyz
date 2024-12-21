@@ -2,24 +2,44 @@
 	.properties = .{
 		.hot,
 		.dry,
-		.land,
 	},
-	.minHeight = 30,
-	.maxHeight = 40,
-	.minRadius = 256,
-	.maxRadius = 480,
-	.hills = 6,
+	.minHeight = 64,
+	.maxHeight = 65,
+	.minRadius = 80,
+	.maxRadius = 128,
+	.roughness = 15,
+	.chance = 0,
+	.hills = 2,
 	
-	.music = "cubyz:EasternThought",
+	.rivers = true,
+
+
+	.stripes = .{
+		.{
+			.direction= .{1, 1, 5},
+			.block= "cubyz:ferrock",
+			.distance= 12,
+			.offset= 6,
+			.width= 1,
+		},
+		.{
+			.direction= .{1, 1, 5},
+			.block= "cubyz:sandstone",
+			.distance= 10,
+			.offset= 6,
+			.width= 1,
+		},
+	},
 	
 	.ground_structure = .{
-		"3 to 4 cubyz:limestone",
+		"cubyz:grass",
 	},
+	.stoneBlock = "cubyz:limestone",
 	.structures = .{
 		.{
 			.id = "cubyz:simple_vegetation",
 			.block = "cubyz:cactus",
-			.chance = 0.02,
+			.chance = 0.01,
 			.height = 1,
 			.height_variation = 3,
 		},
@@ -46,7 +66,7 @@
 			.leaves = "cubyz:mahogany_leaves",
 			.log = "cubyz:oak_log",
 			.top = "cubyz:oak_top",
-			.chance = 0.075,
+			.chance = 0.05,
 			.type = .round,
 			.height = 1,
 			.height_variation = 7,
@@ -54,25 +74,11 @@
 			.leafRadius_variation = 1,
 		},
 	},
-	.transitionBiomes = .{
+	.parentBiomes = .{
 		.{
-			.id = "cubyz:trans/savannah_coast",
-			.chance = 1,
-			.width = 2,
-			.keepOriginalTerrain = 0.5,
-			.properties = .{.ocean},
-		},
-		.{
-			.id = "cubyz:trans/sparse_bushlands",
-			.chance = 1,
-			.width = 2,
-			.keepOriginalTerrain = 1,
-			.properties = .{.neitherWetNorDry, .inland, .land},
+			.id = "cubyz:savannah",
+			.chance = 8,
 		},
 	},
-
-
-
-	.stoneBlock = "cubyz:sandstone",
 
 }

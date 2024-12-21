@@ -7,7 +7,9 @@
 	.maxHeight = 75,
 	.mountains = 20,
 	.roughness = 20,
-	
+	.minRadius = 160,
+	.maxRadius = 256,
+
 	.music = "cubyz:leaves",
 
 	.validPlayerSpawn = true,

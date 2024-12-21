@@ -24,27 +24,27 @@
 	.parentBiomes = .{
 		.{
 			.id = "cubyz:grassland",
-			.chance = 3,
+			.chance = 5,
 		},
 		.{
 			.id = "cubyz:mixed_fall_forest",
-			.chance = 3,
+			.chance = 5,
 		},
 		.{
 			.id = "cubyz:fall_forest",
-			.chance = 3,
+			.chance = 7,
 		},
 		.{
 			.id = "cubyz:rocky_grassland",
-			.chance = 3,
+			.chance = 32,
 		},
 		.{
 			.id = "cubyz:taiga",
-			.chance = 3,
+			.chance = 6,
 		},
 		.{
 			.id = "cubyz:forest",
-			.chance = 3,
+			.chance = 4,
 		},
 	},
 }

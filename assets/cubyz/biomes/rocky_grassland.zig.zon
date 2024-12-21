@@ -2,6 +2,8 @@
 	.properties = .{
 	},
 	.chance = 0.5,
+	.minRadius = 160,
+	.maxRadius = 256,
 	.minHeight = 20,
 	.maxHeight = 40,
 	.mountains = 30,
@@ -10,7 +12,7 @@
 	
 	.transitionBiomes = .{
 		.{
-			.id = "cubyz:trans/coast",
+			.id = "cubyz:trans/rocky_coast",
 			.chance = 1,
 			.width = 2,
 			.keepOriginalTerrain = 0.5,

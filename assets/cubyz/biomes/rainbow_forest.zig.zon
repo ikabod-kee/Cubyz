@@ -4,7 +4,8 @@
 	},
 	.minHeight = 22,
 	.maxHeight = 40,
-	
+	.minRadius = 160,
+	.maxRadius = 256,
 	.roughness = 10,
 	.hills = 10,
 

@@ -4,14 +4,14 @@
 		.dry,
 	},
 
-	.radius = 85,
+	.radius = 100,
 		
 	.chance = 0,
 	
-	.minHeight = 38,
-	.maxHeight = 45,
+	.minHeight = 30,
+	.maxHeight = 40,
 	
-	.hills = 44,
+	.hills = 40,
 	
 	.music = "cubyz:EasternThought",
 	
@@ -24,7 +24,7 @@
 	.parentBiomes = .{
 		.{
 			.id = "cubyz:desert",
-			.chance = 2,
+			.chance = 1,
 		},
 	},
 }
