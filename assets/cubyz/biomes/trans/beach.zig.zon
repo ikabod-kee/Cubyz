@@ -14,7 +14,19 @@
 	.hills = 3,
 
 	.music = "cubyz:tides",
-	
+
+		.structures = .{
+		.{
+			.id = "cubyz:ground_patch",
+			.block = "cubyz:sand",
+			.chance = 1,
+			.width = 7,
+			.variation = 4,
+			.depth = 2,
+			.smoothness = 0.5,
+		},
+	},
+
 	.ground_structure = .{
 		"2 to 4 cubyz:sand",
 	},

@@ -23,12 +23,12 @@
 		},
 		.{
 			.id = "cubyz:ground_patch",
-			.block = "cubyz:grass",
-			.chance = 0.25,
+			.block = "cubyz:dry_grass",
+			.chance = 0.5,
 			.width = 3,
-			.variation = 4,
+			.variation = 5,
 			.depth = 1,
-			.smoothness = 0.3,
+			.smoothness = 0.2,
 		},
 		.{
 			.id = "cubyz:simple_tree",

@@ -27,7 +27,7 @@
 			.properties = .{.ocean},
 		},
 		.{
-			.id = "cubyz:trans/widow",
+			.id = "cubyz:trans/prairie_widow",
 			.chance = 5,
 			.width = 2,
 			.keepOriginalTerrain = 1,
