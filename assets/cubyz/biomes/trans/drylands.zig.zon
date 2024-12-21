@@ -1,0 +1,40 @@
+.{
+	.properties = .{
+		.dry,
+	},
+	.minHeight = 22,
+	.maxHeight = 40,
+	.chance = 0,
+	.hills = 15,
+	.roughness = 5,
+	.music = "cubyz:EasternThought",
+
+	.fogDensity = 5,
+	.fogColor = 0xe0dcc3,
+	
+	.structures = .{
+		.{
+			.id = "cubyz:ground_patch",
+			.block = "cubyz:dirt",
+			.chance = 0.25,
+			.width = 3,
+			.variation = 4,
+			.depth = 3,
+			.smoothness = 0.3,
+		},
+		.{
+			.id = "cubyz:ground_patch",
+			.block = "cubyz:dirt",
+			.chance = 0.5,
+			.width = 2,
+			.variation = 4,
+			.depth = 2,
+			.smoothness = 0.1,
+		},
+	},
+
+	.ground_structure = .{
+		"3 to 4 cubyz:sand",
+		"3 to 4 cubyz:sandstone",
+	},
+}

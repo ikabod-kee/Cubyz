@@ -1,0 +1,37 @@
+.{
+	.properties = .{
+	},
+	.minHeight = 22,
+	.maxHeight = 40,
+	.chance = 0
+	.roughness = 1,
+	.hills = 5,
+	.music = "cubyz:EasternThought",
+	.interpolation = .linear,
+	.fogDensity = 1,
+	
+	.ground_structure = .{
+		"3 to 4 cubyz:dirt",
+	},
+
+	.structures = .{
+		.{
+			.id = "cubyz:ground_patch",
+			.block = "cubyz:soil",
+			.chance = 0.25,
+			.width = 2,
+			.variation = 4,
+			.depth = 5,
+			.smoothness = 0.3,
+		},
+		.{
+			.id = "cubyz:ground_patch",
+			.block = "cubyz:grass",
+			.chance = 0.25,
+			.width = 3,
+			.variation = 4,
+			.depth = 1,
+			.smoothness = 0.3,
+		},
+	},
+}

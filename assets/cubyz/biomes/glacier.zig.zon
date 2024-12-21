@@ -2,7 +2,7 @@
 	.properties = .{
 		.cold,
 	},
-	.minHeight = 80,
+	.minHeight = 128,
 	.maxHeight = 256,
 	
 	.roughness = 50,

@@ -1,11 +1,12 @@
 .{
 	.properties = .{
 		.ocean,
+		.wet,
 	},
 	.radius = 500,
 	.minHeight = -100,
 	.maxHeight = -22,
-	
+	.chance = 10,
 	.roughness = 15,
 	.hills = 15,
 	
@@ -38,13 +39,13 @@
 	},
 	.transitionBiomes = .{
 		.{
-			.id = "cubyz:beach",
-			.chance = 1,
+			.id = "cubyz:trans/beach",
+			.chance = 2,
 			.width = 1,
 			.properties = .{.land, .inland},
 		},
 		.{
-			.id = "cubyz:ocean_shelf",
+			.id = "cubyz:trans/ocean_shelf",
 			.chance = 1,
 			.width = 2,
 			.properties = .{.land, .inland},

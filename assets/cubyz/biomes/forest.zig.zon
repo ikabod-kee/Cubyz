@@ -1,6 +1,7 @@
 .{
 	.properties = .{
 		.wet,
+		.land,
 	},
 	.minHeight = 22,
 	.maxHeight = 40,
@@ -16,6 +17,50 @@
 		"cubyz:grass",
 		"2 to 3 cubyz:soil",
 	},
+	.transitionBiomes = .{
+		.{
+			.id = "cubyz:forest",
+			.chance = 0.5,
+			.width = 2,
+			.properties = .{.ocean},
+		},
+		.{
+			.id = "cubyz:trans/sparse_trees",
+			.chance = 1,
+			.width = 2,
+			.keepOriginalTerrain = 1,
+			.properties = .{.neitherWetNorDry, .temperate, .land, .inland},
+		},
+		.{
+			.id = "cubyz:trans/fall_forest",
+			.chance = 1,
+			.width = 2,
+			.keepOriginalTerrain = 1,
+			.properties = .{.wet, .cold, .land, .inland},
+		},
+		.{
+			.id = "cubyz:trans/tree_widow",
+			.chance = 1,
+			.width = 2,
+			.keepOriginalTerrain = 1,
+			.properties = .{.dry, .hot, .land, .inland},
+		},
+		.{
+			.id = "cubyz:trans/meadow",
+			.chance = 1,
+			.width = 2,
+			.keepOriginalTerrain = 1,
+			.properties = .{.dry, .cold, .land, .inland},
+		},
+		.{
+			.id = "cubyz:trans/meadow",
+			.chance = 1,
+			.width = 2,
+			.keepOriginalTerrain = 1,
+			.properties = .{.dry, .temperate, .land, .inland},
+		},
+	},
+
 	.structures = .{
 		.{
 			.id = "cubyz:simple_tree",

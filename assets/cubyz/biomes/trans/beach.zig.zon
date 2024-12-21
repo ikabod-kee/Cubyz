@@ -1,15 +1,16 @@
 .{
 	.properties = .{
 		.ocean,
+		.wet,
 	},
 	.radius = 500,
-	.minHeight = -4,
-	.maxHeight = 0,
+	.minHeight = 5,
+	.maxHeight = 7,
 	.chance = 0,
 
 	.interpolation = .linear,
 	
-	.hills = 10,
+	.hills = 5,
 
 	.music = "cubyz:tides",
 	

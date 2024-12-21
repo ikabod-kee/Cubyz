@@ -1,0 +1,46 @@
+.{
+	.properties = .{
+		.hot,
+		.wet,
+	},
+	.minHeight = 80,
+	.maxHeight = 120,
+	.mountains = 100,
+	.roughness = 20,
+	.hills = 30,
+	
+	.music = "cubyz:leaves",
+
+	.validPlayerSpawn = true,
+	
+	.ground_structure = .{
+		"1 cubyz:grass",
+		"6 to 7 cubyz:soil",
+	},
+	.structures = .{
+		.{
+			.id = "cubyz:simple_tree",
+			.leaves = "cubyz:mahogany_leaves",
+			.log = "cubyz:mahogany_log",
+			.top = "cubyz:mahogany_top",
+			.chance = 0.9,
+			.type = .round,
+			.height = 13,
+			.height_variation = 8,
+			.leafRadius = 2.5,
+			.leafRadius_variation = 1.5,
+		},
+		.{
+			.id = "cubyz:simple_tree",
+			.leaves = "cubyz:mahogany_leaves",
+			.log = "cubyz:mahogany_log",
+			.top = "cubyz:mahogany_top",
+			.chance = 0.1,
+			.type = .round,
+			.height = 1,
+			.height_variation = 1,
+			.leafRadius = 4.5,
+			.leafRadius_variation = 1.5,
+		},
+	},
+}

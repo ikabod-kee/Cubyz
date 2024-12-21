@@ -2,6 +2,7 @@
 	.properties = .{
 		.hot,
 		.dry,
+		.land,
 	},
 	.minHeight = 22,
 	.maxHeight = 40,
@@ -23,6 +24,21 @@
 			.chance = 0.16,
 			.height = 2,
 			.height_variation = 3,
+		},
+	},
+	.transitionBiomes = .{
+		.{
+			.id = "cubyz:desert",
+			.chance = 1,
+			.width = 2,
+			.properties = .{.ocean},
+		},
+		.{
+			.id = "cubyz:trans/drylands",
+			.chance = 1,
+			.width = 2,
+			.keepOriginalTerrain = 1,
+			.properties = .{.neitherWetNorDry, .inland, .land},
 		},
 	},
 	.stoneBlock = "cubyz:sandstone",

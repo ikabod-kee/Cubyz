@@ -1,0 +1,66 @@
+.{
+	.properties = .{
+		.hot,
+		.dry,
+		.land,
+	},
+	.minHeight = 30,
+	.maxHeight = 40,
+	.hills = 6,
+	
+	.music = "cubyz:EasternThought",
+	
+	.ground_structure = .{
+		"3 to 4 cubyz:limestone",
+	},
+	.structures = .{
+		.{
+			.id = "cubyz:simple_vegetation",
+			.block = "cubyz:cactus",
+			.chance = 0.02,
+			.height = 1,
+			.height_variation = 3,
+		},
+		.{
+			.id = "cubyz:ground_patch",
+			.block = "cubyz:dirt",
+			.chance = 0.33,
+			.width = 5,
+			.variation = 4,
+			.depth = 2,
+			.smoothness = 0.1,
+		},
+		.{
+			.id = "cubyz:ground_patch",
+			.block = "cubyz:dry_grass",
+			.chance = 0.33,
+			.width = 5,
+			.variation = 4,
+			.depth = 2,
+			.smoothness = 0.1,
+		},
+		.{
+			.id = "cubyz:simple_tree",
+			.leaves = "cubyz:mahogany_leaves",
+			.log = "cubyz:oak_log",
+			.top = "cubyz:oak_top",
+			.chance = 0.075,
+			.type = .round,
+			.height = 1,
+			.height_variation = 7,
+			.leafRadius = 2,
+			.leafRadius_variation = 1,
+		},
+	},
+	.transitionBiomes = .{
+		.{
+			.id = "cubyz:trans/sparse_bushlands",
+			.chance = 1,
+			.width = 2,
+			.keepOriginalTerrain = 1,
+			.properties = .{.neitherWetNorDry, .inland, .land},
+		},
+	},
+	.stoneBlock = "cubyz:sandstone",
+
+}

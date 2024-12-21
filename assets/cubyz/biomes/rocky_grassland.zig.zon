@@ -1,10 +1,9 @@
 .{
 	.properties = .{
 	},
-	.chance = 0.04,
+	.chance = 0.1,
 	.minHeight = 20,
 	.maxHeight = 40,
-	
 	.mountains = 30,
 	
 	.music = "cubyz:sunrise",

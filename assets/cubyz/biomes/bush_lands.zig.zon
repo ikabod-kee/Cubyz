@@ -1,6 +1,7 @@
 .{
 	.properties = .{
 		.hot,
+		.land,
 	},
 	.minHeight = 24,
 	.maxHeight = 60,
@@ -15,6 +16,17 @@
 		"cubyz:grass",
 		"2 cubyz:soil",
 	},
+
+	.transitionBiomes = .{
+		.{
+			.id = "cubyz:trans/sparse_bushlands",
+			.chance = 1,
+			.keepOriginalTerrain = 1,
+			.width = 2,
+			.properties = .{.hot, .dry, .inland, .land},
+		},
+	},
+
 	.structures = .{
 		.{
 			.id = "cubyz:simple_tree",

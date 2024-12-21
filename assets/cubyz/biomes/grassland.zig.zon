@@ -3,7 +3,6 @@
 	},
 	.minHeight = 22,
 	.maxHeight = 40,
-	
 	.roughness = 1,
 	.hills = 5,
 	
@@ -14,6 +13,16 @@
 	.ground_structure = .{
 		"cubyz:grass",
 		"2 to 3 cubyz:soil",
+	},
+	.transitionBiomes = .{
+		.{
+			.id = "cubyz:trans/widow",
+			.chance = 5,
+			.width = 2,
+			.keepOriginalTerrain = 1,
+			.properties = .{.hot, .dry, .inland, .land},
+		},
+
 	},
 	.structures = .{
 		.{

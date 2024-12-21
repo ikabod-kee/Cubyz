@@ -13,6 +13,7 @@
 	
 	.rivers = true,
 
+
 	.stripes = .{
 		.{
 			.direction= .{1, 1, 5},
