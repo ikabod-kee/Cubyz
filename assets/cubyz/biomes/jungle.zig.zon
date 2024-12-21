@@ -3,19 +3,27 @@
 		.hot,
 		.wet,
 	},
-	.minHeight = 80,
-	.maxHeight = 120,
-	.mountains = 100,
+	.minHeight = 64,
+	.maxHeight = 75,
+	.mountains = 20,
 	.roughness = 20,
-	.hills = 30,
 	
 	.music = "cubyz:leaves",
 
 	.validPlayerSpawn = true,
-	
+
+	.transitionBiomes = .{
+		.{
+			.id = "cubyz:trans/coast",
+			.chance = 1,
+			.keepOriginalTerrain = 0.5,
+			.width = 2,
+			.properties = .{.ocean},
+		},
+	},
+
 	.ground_structure = .{
 		"1 cubyz:grass",
-		"6 to 7 cubyz:soil",
 	},
 	.structures = .{
 		.{

@@ -1,0 +1,30 @@
+.{
+	.properties = .{
+		.hot,
+		.dry,
+	},
+
+	.radius = 85,
+		
+	.chance = 0,
+	
+	.minHeight = 38,
+	.maxHeight = 45,
+	
+	.hills = 44,
+	
+	.music = "cubyz:EasternThought",
+	
+	.ground_structure = .{
+		"3 to 4 cubyz:sand",
+	},
+	
+	.stoneBlock = "cubyz:sandstone",
+	
+	.parentBiomes = .{
+		.{
+			.id = "cubyz:desert",
+			.chance = 2,
+		},
+	},
+}

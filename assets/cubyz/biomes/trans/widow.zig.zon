@@ -8,7 +8,6 @@
 	.hills = 5,
 	.music = "cubyz:EasternThought",
 	.interpolation = .linear,
-	.fogDensity = 1,
 	
 	.ground_structure = .{
 		"3 to 4 cubyz:dirt",
@@ -27,11 +26,11 @@
 		.{
 			.id = "cubyz:ground_patch",
 			.block = "cubyz:grass",
-			.chance = 0.25,
-			.width = 3,
-			.variation = 4,
+			.chance = 0.4,
+			.width = 5,
+			.variation = 5,
 			.depth = 1,
-			.smoothness = 0.3,
+			.smoothness = 0.2,
 		},
 	},
 }

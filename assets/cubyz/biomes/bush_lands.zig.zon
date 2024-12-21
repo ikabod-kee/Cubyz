@@ -19,6 +19,13 @@
 
 	.transitionBiomes = .{
 		.{
+			.id = "cubyz:trans/coast",
+			.chance = 1,
+			.keepOriginalTerrain = 0.5,
+			.width = 2,
+			.properties = .{.ocean},
+		},
+		.{
 			.id = "cubyz:trans/sparse_bushlands",
 			.chance = 1,
 			.keepOriginalTerrain = 1,

@@ -10,9 +10,6 @@
 	.hills = 20,
 	
 	.music = "cubyz:EasternThought",
-
-	.fogDensity = 20,
-	.fogColor = 0xe0dcc3,
 	
 	.ground_structure = .{
 		"3 to 4 cubyz:sand",
@@ -28,9 +25,10 @@
 	},
 	.transitionBiomes = .{
 		.{
-			.id = "cubyz:desert",
+			.id = "cubyz:trans/coast",
 			.chance = 1,
 			.width = 2,
+			.keepOriginalTerrain = 0.5,
 			.properties = .{.ocean},
 		},
 		.{

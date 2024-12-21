@@ -9,6 +9,16 @@
 	.mountains = 50,
 	.hills = 50,
 	
+	.transitionBiomes = .{
+		.{
+			.id = "cubyz:trans/coast",
+			.chance = 1,
+			.keepOriginalTerrain = 0.5,
+			.width = 2,
+			.properties = .{.ocean},
+		},
+	},
+
 	.ground_structure = .{
 		"3 to 5 cubyz:snow",
 		"4 cubyz:frost",

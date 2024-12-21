@@ -13,7 +13,15 @@
 	
 	.rivers = true,
 
-
+	.transitionBiomes = .{
+		.{
+			.id = "cubyz:trans/coast",
+			.chance = 1,
+			.width = 2,
+			.keepOriginalTerrain = 0.5,
+			.properties = .{.ocean},
+		},
+	},
 	.stripes = .{
 		.{
 			.direction= .{1, 1, 5},

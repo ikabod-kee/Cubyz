@@ -7,8 +7,6 @@
 	.hills = 10,
 	.music = "cubyz:EasternThought",
 	.interpolation = .linear,
-	.fogDensity = 1,
-	.fogColor = 0xe0dcc3,
 	
 	.ground_structure = .{
 		"3 to 4 cubyz:dirt",

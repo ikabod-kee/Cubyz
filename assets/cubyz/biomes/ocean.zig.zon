@@ -6,7 +6,7 @@
 	.radius = 500,
 	.minHeight = -100,
 	.maxHeight = -22,
-	.chance = 10,
+	.chance = 30,
 	.roughness = 15,
 	.hills = 15,
 	
@@ -40,15 +40,11 @@
 	.transitionBiomes = .{
 		.{
 			.id = "cubyz:trans/beach",
-			.chance = 2,
-			.width = 1,
-			.properties = .{.land, .inland},
-		},
-		.{
-			.id = "cubyz:trans/ocean_shelf",
 			.chance = 1,
-			.width = 2,
+			.keepOriginalTerrain = 0.25,
+			.width = 5,
 			.properties = .{.land, .inland},
 		},
+
 	},
 }

@@ -9,7 +9,15 @@
 	.mountains = 125,
 	
 	.music = "cubyz:DarkTimes",
-
+	.transitionBiomes = .{
+		.{
+			.id = "cubyz:trans/coast",
+			.chance = 1,
+			.width = 2,
+			.keepOriginalTerrain = 0.5,
+			.properties = .{.ocean},
+		},
+	},
 	.ground_structure = .{
 		"3 to 6 cubyz:snow",
 	},

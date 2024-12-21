@@ -9,8 +9,6 @@
 	.roughness = 5,
 	.music = "cubyz:EasternThought",
 
-	.fogDensity = 5,
-	.fogColor = 0xe0dcc3,
 	
 	.structures = .{
 		.{

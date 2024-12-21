@@ -10,7 +10,16 @@
 	.mountains = 100,
 	
 	.rivers = true,
-	
+
+	.transitionBiomes = .{
+		.{
+			.id = "cubyz:trans/coast",
+			.chance = 1,
+			.width = 2,
+			.properties = .{.ocean},
+		},
+	},
+
 	.ground_structure = .{
 		"0 to 1 cubyz:grass",
 		"0 to 1 cubyz:gravel",

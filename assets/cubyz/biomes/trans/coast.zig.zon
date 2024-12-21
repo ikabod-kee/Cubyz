@@ -3,18 +3,19 @@
 		.ocean,
 		.wet,
 	},
-	.radius = 500,
-	.minHeight = -4,
-	.maxHeight = 0,
+	.radius = 90,
+	.minHeight = 3,
+	.maxHeight = 4,
 	.chance = 0,
+	.roughness = 3,
 
 	.interpolation = .linear,
 	
-	.hills = 10,
+	.hills = 1,
 
 	.music = "cubyz:tides",
 	
 	.ground_structure = .{
-		"2 to 4 cubyz:sand",
+		"2 to 4 cubyz:cobblestone",
 	},
 }

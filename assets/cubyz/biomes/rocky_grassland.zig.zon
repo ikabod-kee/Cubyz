@@ -1,13 +1,23 @@
 .{
 	.properties = .{
 	},
-	.chance = 0.1,
+	.chance = 0.5,
 	.minHeight = 20,
 	.maxHeight = 40,
 	.mountains = 30,
 	
 	.music = "cubyz:sunrise",
 	
+	.transitionBiomes = .{
+		.{
+			.id = "cubyz:trans/coast",
+			.chance = 1,
+			.width = 2,
+			.keepOriginalTerrain = 0.5,
+			.properties = .{.ocean},
+		},
+	},
+
 	.ground_structure = .{
 		"cubyz:grass",
 		"0 to 1 cubyz:soil",

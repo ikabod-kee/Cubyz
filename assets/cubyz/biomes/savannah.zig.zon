@@ -54,6 +54,13 @@
 	},
 	.transitionBiomes = .{
 		.{
+			.id = "cubyz:trans/coast",
+			.chance = 1,
+			.width = 2,
+			.keepOriginalTerrain = 0.5,
+			.properties = .{.ocean},
+		},
+		.{
 			.id = "cubyz:trans/sparse_bushlands",
 			.chance = 1,
 			.width = 2,
@@ -61,6 +68,9 @@
 			.properties = .{.neitherWetNorDry, .inland, .land},
 		},
 	},
+
+
+
 	.stoneBlock = "cubyz:sandstone",
 
 }
