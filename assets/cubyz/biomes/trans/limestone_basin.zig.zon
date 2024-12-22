@@ -1,0 +1,32 @@
+.{
+	.properties = .{
+		.mountain,
+		.dry,
+	},
+	.minHeight = 80,
+	.maxHeight = 120,
+	.roughness = 5,
+	.mountains = 50,
+	.chance = 0,
+	
+	.rivers = true,
+
+	.stoneBlock = "cubyz:limestone",
+	.ground_structure = .{
+		"cubyz:dry_grass",
+		"1 to 2 cubyz:dirt",
+	},
+
+	.structures = .{
+		.{
+			.id = "cubyz:simple_tree",
+			.leaves = "cubyz:oak_leaves",
+			.log = "cubyz:oak_log",
+			.top = "cubyz:oak_top",
+			.chance = 0.1,
+			.type = .round,
+			.height = 3,
+			.height_variation = 3,
+		},
+	},
+}

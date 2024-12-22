@@ -1,0 +1,49 @@
+.{
+	.properties = .{
+		.mountain,
+		.dry,
+	},
+	.minHeight = 128,
+	.maxHeight = 300,
+	.minRadius = 160,
+	.maxRadius = 320,
+	.roughness = 10,
+	.mountains = 100,
+	
+	.rivers = true,
+
+	.stoneBlock = "cubyz:limestone",
+	.ground_structure = .{
+		"cubyz:dry_grass",
+		"1 to 2 cubyz:dirt",
+	},
+	.transitionBiomes = .{
+		.{
+			.id = "cubyz:trans/coast",
+			.chance = 1,
+			.keepOriginalTerrain = 0.5,
+			.width = 2,
+			.properties = .{.ocean},
+		},
+		.{
+			.id = "cubyz:trans/limestone_basin",
+			.chance = 1,
+			.keepOriginalTerrain = 0.2,
+			.width = 2,
+			.properties = .{.lowTerrain, .antiMountain},
+		},
+	},
+
+	.structures = .{
+		.{
+			.id = "cubyz:simple_tree",
+			.leaves = "cubyz:oak_leaves",
+			.log = "cubyz:oak_log",
+			.top = "cubyz:oak_top",
+			.chance = 0.2,
+			.type = .round,
+			.height = 3,
+			.height_variation = 3,
+		},
+	},
+}

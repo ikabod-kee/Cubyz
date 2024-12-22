@@ -2,21 +2,19 @@
 	.properties = .{
 		.dry
 	},
-	.minHeight = 50,
-	.maxHeight = 60,
-	.minRadius = 160,
-	.maxRadius = 256,
+	.minHeight = 40,
+	.maxHeight = 44,
+	.minRadius = 100,
+	.maxRadius = 200,
 	.roughness = 1,
-	.hills = 4,
+	.hills = 3,
 	
 	.music = "cubyz:sunrise",
 
 	.validPlayerSpawn = true,
 	
 	.ground_structure = .{
-		"cubyz:grass",
-		"0 to 1 cubyz:soil",
-		"2 to 3 cubyz:dirt",
+		"3 to 4 cubyz:dirt",
 	},
 	.transitionBiomes = .{
 		.{
@@ -38,24 +36,6 @@
 	.structures = .{
 		.{
 			.id = "cubyz:ground_patch",
-			.block = "cubyz:soil",
-			.chance = 0.33,
-			.width = 5,
-			.variation = 4,
-			.depth = 2,
-			.smoothness = 0.1,
-		},
-		.{
-			.id = "cubyz:ground_patch",
-			.block = "cubyz:dirt",
-			.chance = 0.5,
-			.width = 2,
-			.variation = 3,
-			.depth = 2,
-			.smoothness = 0.1,
-		},
-		.{
-			.id = "cubyz:ground_patch",
 			.block = "cubyz:dry_grass",
 			.chance = 0.33,
 			.width = 5,
@@ -65,10 +45,56 @@
 		},
 		.{
 			.id = "cubyz:boulder",
-			.chance = 0.005,
+			.chance = 0.1,
+			.block = "cubyz:limestone",
+			.size = 1,
+			.size_variance = 9,
+		},
+		.{
+			.id = "cubyz:boulder",
+			.chance = 0.05,
+			.block = "cubyz:limestone",
+			.size = 2,
+			.size_variance = 8,
+		},
+		.{
+			.id = "cubyz:boulder",
+			.chance = 0.025,
+			.block = "cubyz:limestone",
+			.size = 3,
+			.size_variance = 7,
+		},
+		.{
+			.id = "cubyz:boulder",
+			.chance = 0.0125,
+			.block = "cubyz:limestone",
+			.size = 4,
+			.size_variance = 6,
+		},
+		.{
+			.id = "cubyz:boulder",
+			.chance = 0.05,
 			.block = "cubyz:stone",
-			.size = 5,
-			.size_variance = 1,
+			.size = 1,
+			.size_variance = 9,
+		},
+		.{
+			.id = "cubyz:flower_patch",
+			.block = "cubyz:grass_vegetation",
+			.chance = 0.05,
+			.width = 10,
+			.variation = 6,
+			.density = 0.3,
+			.priority = 0.2,
+		},
+		.{
+			.id = "cubyz:flower_patch",
+			.block = "cubyz:vetch",
+			.chance = 0.01,
+			.width = 3,
+			.variation = 3,
+			.density = 0.1,
+			.priority = 0.1,
 		},
 		.{
 			.id = "cubyz:flower_patch",

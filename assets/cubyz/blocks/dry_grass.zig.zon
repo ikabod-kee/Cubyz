@@ -5,6 +5,6 @@
 		"cubyz:soil",
 	},
 	.model = "cubyz:cube",
-	.texture = "cubyz:grass_top",
+	.texture = "cubyz:dry_grass",
 	.texture_bottom = "cubyz:dirt",
 }

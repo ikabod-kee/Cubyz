@@ -1,7 +1,5 @@
 .{
 	.properties = .{
-		.mountain,
-		.dry,
 	},
 
 	.radius = 10,
@@ -29,10 +27,6 @@
 		.{
 			.id = "cubyz:rocky_grassland",
 			.chance = 32,
-		},
-		.{
-			.id = "cubyz:prairie",
-			.chance = 1,
 		},
 		.{
 			.id = "cubyz:fall_forest",
