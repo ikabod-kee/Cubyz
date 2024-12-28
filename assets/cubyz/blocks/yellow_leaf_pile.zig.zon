@@ -10,6 +10,9 @@
 	.absorbedLight = 0x121012,	
 	.model = "cubyz:plane",
 	.rotation = .carpet,
-	.texture = "cubyz:yellow_leaves",
+	.texture = "cubyz:yellow_leaf_pile",
+	.item= .{
+		.texture = "yellow_leaf_pile.png",
+	},
 	.lodReplacement = "cubyz:air",
 }
