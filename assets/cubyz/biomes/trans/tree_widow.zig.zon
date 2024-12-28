@@ -14,11 +14,11 @@
 	.structures = .{
 		.{
 			.id = "cubyz:ground_patch",
-			.block = "cubyz:soil",
-			.chance = 0.25,
-			.width = 2,
+			.block = "cubyz:grass",
+			.chance = 0.1,
+			.width = 7,
 			.variation = 4,
-			.depth = 5,
+			.depth = 1,
 			.smoothness = 0.3,
 		},
 		.{

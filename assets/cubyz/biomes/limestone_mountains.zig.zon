@@ -36,6 +36,15 @@
 
 	.structures = .{
 		.{
+			.id = "cubyz:ground_patch",
+			.block = "cubyz:grass",
+			.chance = 0.025,
+			.width = 16,
+			.variation = 4,
+			.depth = 2,
+			.smoothness = 0.1,
+		},
+		.{
 			.id = "cubyz:simple_tree",
 			.leaves = "cubyz:oak_leaves",
 			.log = "cubyz:oak_log",

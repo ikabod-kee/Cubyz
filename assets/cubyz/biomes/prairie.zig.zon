@@ -41,7 +41,16 @@
 			.width = 5,
 			.variation = 4,
 			.depth = 2,
-			.smoothness = 0.1,
+			.smoothness = 0.5,
+		},
+		.{
+			.id = "cubyz:ground_patch",
+			.block = "cubyz:grass",
+			.chance = 0.05,
+			.width = 15,
+			.variation = 7,
+			.depth = 2,
+			.smoothness = 0.5,
 		},
 		.{
 			.id = "cubyz:boulder",
@@ -80,7 +89,7 @@
 		},
 		.{
 			.id = "cubyz:flower_patch",
-			.block = "cubyz:grass_vegetation",
+			.block = "cubyz:dry_grass_vegetation",
 			.chance = 0.05,
 			.width = 10,
 			.variation = 6,
