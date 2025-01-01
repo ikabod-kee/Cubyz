@@ -27,6 +27,13 @@
 	},
 	.transitionBiomes = .{
 		.{
+			.id = "cubyz:trans/sandy_coast",
+			.chance = 1,
+			.width = 1,
+			.keepOriginalTerrain = 0.5,
+			.properties = .{.ocean, .wet},
+		},
+		.{
 			.id = "cubyz:trans/drylands",
 			.chance = 1,
 			.width = 2,
@@ -39,13 +46,6 @@
 			.width = 2,
 			.keepOriginalTerrain = 1,
 			.properties = .{.dry, .temperate, .inland, .land},
-		},
-		.{
-			.id = "cubyz:trans/sandy_coast",
-			.chance = 1,
-			.width = 2,
-			.keepOriginalTerrain = 0.5,
-			.properties = .{.ocean},
 		},
 	},
 	.stoneBlock = "cubyz:sandstone",
