@@ -8,7 +8,7 @@
 	.minRadius = 100,
 	.maxRadius = 160,
 	.roughness = 10,
-	.mountains = 100,
+	.mountains = 80,
 	
 	.rivers = true,
 
@@ -33,7 +33,7 @@
 			.leaves = "cubyz:oak_leaves",
 			.log = "cubyz:oak_log",
 			.top = "cubyz:oak_top",
-			.chance = 0.16,
+			.chance = 0.10,
 			.type = .round,
 			.height = 4,
 			.height_variation = 1,
@@ -50,9 +50,9 @@
 		.{
 			.id = "cubyz:ground_patch",
 			.block = "cubyz:snow",
-			.chance = 0.032,
-			.width = 6,
-			.variation = 2,
+			.chance = 0.075,
+			.width = 16,
+			.variation = 16,
 			.depth = 3,
 			.smoothness = 0.8,
 		},

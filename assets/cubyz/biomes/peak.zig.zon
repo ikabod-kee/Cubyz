@@ -2,6 +2,7 @@
 	.properties = .{
 		.mountain,
 		.cold,
+		.dry
 	},
 	.minHeight = 128,
 	.maxHeight = 256,
