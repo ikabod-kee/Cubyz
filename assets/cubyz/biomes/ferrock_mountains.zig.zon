@@ -6,8 +6,8 @@
 	},
 	.minHeight = 80,
 	.maxHeight = 256,
-	.minRadius = 160,
-	.maxRadius = 256,
+	.minRadius = 80,
+	.maxRadius = 128,
 	.roughness = 10,
 	.mountains = 20,
 	.hills = 50,
@@ -16,7 +16,7 @@
 
 	.transitionBiomes = .{
 		.{
-			.id = "cubyz:trans/coast",
+			.id = "cubyz:trans/ferrock_mountain_coast",
 			.chance = 1,
 			.width = 2,
 			.keepOriginalTerrain = 0.5,

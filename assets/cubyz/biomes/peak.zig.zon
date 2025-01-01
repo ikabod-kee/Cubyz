@@ -5,8 +5,8 @@
 	},
 	.minHeight = 128,
 	.maxHeight = 256,
-	.minRadius = 160,
-	.maxRadius = 256,
+	.minRadius = 80,
+	.maxRadius = 128,
 	.mountains = 125,
 	
 	.music = "cubyz:DarkTimes",

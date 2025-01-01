@@ -4,8 +4,8 @@
 		.wet,
 	},
 	.radius = 90,
-	.minHeight = 3,
-	.maxHeight = 4,
+	.minHeight = 5,
+	.maxHeight = 7,
 	.chance = 0,
 	.roughness = 3,
 
@@ -16,6 +16,6 @@
 	.music = "cubyz:tides",
 	
 	.ground_structure = .{
-		"2 to 4 cubyz:cobblestone",
+		"3 to 4 cubyz:limestone",
 	},
 }

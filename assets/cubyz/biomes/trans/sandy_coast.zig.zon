@@ -4,8 +4,8 @@
 		.wet,
 	},
 	.radius = 90,
-	.minHeight = 3,
-	.maxHeight = 4,
+	.minHeight = 5,
+	.maxHeight = 7,
 	.chance = 0,
 	.roughness = 3,
 

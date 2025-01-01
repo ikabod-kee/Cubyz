@@ -7,8 +7,8 @@
 	.maxHeight = 75,
 	.mountains = 20,
 	.roughness = 20,
-	.minRadius = 160,
-	.maxRadius = 256,
+	.minRadius = 80,
+	.maxRadius = 128,
 
 	.music = "cubyz:leaves",
 

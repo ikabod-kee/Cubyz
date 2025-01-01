@@ -7,8 +7,8 @@
 	.chance = 2,
 	.minHeight = 22,
 	.maxHeight = 40,
-	.minRadius = 256,
-	.maxRadius = 480,
+	.minRadius = 80,
+	.maxRadius = 128,
 	.hills = 20,
 	
 	.music = "cubyz:EasternThought",

@@ -5,8 +5,8 @@
 	.maxHeight = 40,
 	.roughness = 1,
 	.hills = 5,
-	.minRadius = 160,
-	.maxRadius = 256,
+	.minRadius = 80,
+	.maxRadius = 128,
 	.music = "cubyz:sunrise",
 
 	.validPlayerSpawn = true,

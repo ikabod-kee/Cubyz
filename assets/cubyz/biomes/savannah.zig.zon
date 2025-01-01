@@ -5,8 +5,8 @@
 	},
 	.minHeight = 30,
 	.maxHeight = 40,
-	.minRadius = 256,
-	.maxRadius = 480,
+	.minRadius = 80,
+	.maxRadius = 128,
 	.hills = 6,
 	
 	.music = "cubyz:EasternThought",

@@ -13,26 +13,17 @@
 	.structures = .{
 		.{
 			.id = "cubyz:ground_patch",
-			.block = "cubyz:dirt",
+			.block = "cubyz:sand",
 			.chance = 0.25,
-			.width = 3,
-			.variation = 4,
-			.depth = 3,
-			.smoothness = 0.3,
-		},
-		.{
-			.id = "cubyz:ground_patch",
-			.block = "cubyz:dirt",
-			.chance = 0.5,
-			.width = 2,
-			.variation = 4,
-			.depth = 2,
-			.smoothness = 0.1,
+			.width = 7,
+			.variation = 8,
+			.depth = 6,
+			.smoothness = 0.8,
 		},
 	},
 
 	.ground_structure = .{
-		"3 to 4 cubyz:sand",
+		"3 to 4 cubyz:dirt",
 		"3 to 4 cubyz:sandstone",
 	},
 }

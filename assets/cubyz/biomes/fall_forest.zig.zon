@@ -7,8 +7,8 @@
 
 	.minHeight = 25,
 	.maxHeight = 45,
-	.minRadius = 160,
-	.maxRadius = 256,
+	.minRadius = 80,
+	.maxRadius = 128,
 	.chance = 0.25,
 	.roughness = 10,
 	.hills = 10,
@@ -32,7 +32,7 @@
 		.{
 			.id = "cubyz:mixed_fall_forest",
 			.chance = 1,
-			.width = 3,
+			.width = 2,
 			.keepOriginalTerrain = 1,
 			.properties = .{.cold, .neitherWetNorDry, .land, .inland, .lowTerrain},
 		},

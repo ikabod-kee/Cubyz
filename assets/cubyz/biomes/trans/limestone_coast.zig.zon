@@ -1,24 +1,20 @@
 .{
 	.properties = .{
 		.ocean,
-		.mountain,
-		.wet,
+		.dry,
 	},
 	.radius = 90,
-	.minHeight = 5,
-	.maxHeight = 7,
+	.minHeight = 20,
+	.maxHeight = 30,
 	.chance = 0,
 	.roughness = 3,
 
 	.interpolation = .linear,
 	
-	.hills = 1,
+	.hills = 5,
 
 	.music = "cubyz:tides",
-	
+	.stoneBlock = "cubyz:limestone",
 	.ground_structure = .{
-		"0 to 1 cubyz:mossy_cobblestone",
-		"0 to 1 cubyz:cobblestone",
-		"0 to 1 cubyz:gravel",
 	},
 }

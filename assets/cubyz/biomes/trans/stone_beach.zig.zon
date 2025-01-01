@@ -18,7 +18,7 @@
 		.structures = .{
 		.{
 			.id = "cubyz:ground_patch",
-			.block = "cubyz:sand",
+			.block = "cubyz:gravel",
 			.chance = 1,
 			.width = 4,
 			.variation = 8,
@@ -28,6 +28,6 @@
 	},
 
 	.ground_structure = .{
-		"2 to 4 cubyz:sand",
+		"2 to 4 cubyz:stone",
 	},
 }
