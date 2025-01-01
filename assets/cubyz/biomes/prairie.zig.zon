@@ -4,8 +4,8 @@
 	},
 	.minHeight = 40,
 	.maxHeight = 44,
-	.minRadius = 80,
-	.maxRadius = 128,
+	.minRadius = 100,
+	.maxRadius = 160,
 	.roughness = 1,
 	.hills = 3,
 	
@@ -20,7 +20,7 @@
 		.{
 			.id = "cubyz:trans/dry_grassy_coast",
 			.chance = 1,
-			.width = 2,
+			.width = 1,
 			.keepOriginalTerrain = 0.5,
 			.properties = .{.ocean},
 		},

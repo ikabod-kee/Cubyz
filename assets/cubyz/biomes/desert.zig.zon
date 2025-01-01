@@ -7,8 +7,8 @@
 	.chance = 2,
 	.minHeight = 22,
 	.maxHeight = 40,
-	.minRadius = 80,
-	.maxRadius = 128,
+	.minRadius = 100,
+	.maxRadius = 160,
 	.hills = 20,
 	
 	.music = "cubyz:EasternThought",
@@ -27,13 +27,6 @@
 	},
 	.transitionBiomes = .{
 		.{
-			.id = "cubyz:trans/sandy_coast",
-			.chance = 1,
-			.width = 2,
-			.keepOriginalTerrain = 0.5,
-			.properties = .{.ocean},
-		},
-		.{
 			.id = "cubyz:trans/drylands",
 			.chance = 1,
 			.width = 2,
@@ -46,6 +39,13 @@
 			.width = 2,
 			.keepOriginalTerrain = 1,
 			.properties = .{.dry, .temperate, .inland, .land},
+		},
+		.{
+			.id = "cubyz:trans/sandy_coast",
+			.chance = 1,
+			.width = 2,
+			.keepOriginalTerrain = 0.5,
+			.properties = .{.ocean},
 		},
 	},
 	.stoneBlock = "cubyz:sandstone",

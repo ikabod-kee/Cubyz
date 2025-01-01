@@ -1,12 +1,12 @@
 .{
 	.properties = .{
 		.wet,
-		.temperate,
+		.hot,
 	},
 	.minHeight = 22,
 	.maxHeight = 40,
-	.minRadius = 80,
-	.maxRadius = 128,
+	.minRadius = 100,
+	.maxRadius = 160,
 	.roughness = 2,
 	.hills = 2,
 	
@@ -16,7 +16,6 @@
 	
 	.ground_structure = .{
 		"0 to 1 cubyz:grass",
-		"0 to 1 cubyz:water",
 		"2 to 3 cubyz:soil",
 	},
 
@@ -25,7 +24,7 @@
 			.id = "cubyz:trans/coast",
 			.chance = 1,
 			.keepOriginalTerrain = 0.5,
-			.width = 2,
+			.width = 1,
 			.properties = .{.ocean},
 		},
 	},

@@ -2,13 +2,14 @@
 	.properties = .{
 		.hot,
 		.wet,
+		.mountain,
 	},
 	.minHeight = 64,
 	.maxHeight = 75,
 	.mountains = 20,
 	.roughness = 20,
-	.minRadius = 80,
-	.maxRadius = 128,
+	.minRadius = 100,
+	.maxRadius = 160,
 
 	.music = "cubyz:leaves",
 
@@ -19,7 +20,7 @@
 			.id = "cubyz:trans/coast",
 			.chance = 1,
 			.keepOriginalTerrain = 0.5,
-			.width = 2,
+			.width = 1,
 			.properties = .{.ocean},
 		},
 	},

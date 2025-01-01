@@ -5,8 +5,8 @@
 	},
 	.minHeight = 30,
 	.maxHeight = 40,
-	.minRadius = 80,
-	.maxRadius = 128,
+	.minRadius = 100,
+	.maxRadius = 160,
 	.hills = 6,
 	
 	.music = "cubyz:EasternThought",
@@ -57,7 +57,7 @@
 		.{
 			.id = "cubyz:trans/savannah_coast",
 			.chance = 1,
-			.width = 2,
+			.width = 1,
 			.keepOriginalTerrain = 0.5,
 			.properties = .{.ocean},
 		},

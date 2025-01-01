@@ -5,8 +5,8 @@
 	.maxHeight = 40,
 	.roughness = 1,
 	.hills = 5,
-	.minRadius = 80,
-	.maxRadius = 128,
+	.minRadius = 100,
+	.maxRadius = 160,
 	.music = "cubyz:sunrise",
 
 	.validPlayerSpawn = true,
@@ -19,7 +19,7 @@
 		.{
 			.id = "cubyz:trans/grassy_coast",
 			.chance = 1,
-			.width = 2,
+			.width = 1,
 			.keepOriginalTerrain = 0.5,
 			.properties = .{.ocean},
 		},

@@ -2,8 +2,8 @@
 	.properties = .{
 	},
 	.chance = 0.5,
-	.minRadius = 80,
-	.maxRadius = 128,
+	.minRadius = 100,
+	.maxRadius = 160,
 	.minHeight = 20,
 	.maxHeight = 40,
 	.mountains = 30,
@@ -14,7 +14,7 @@
 		.{
 			.id = "cubyz:trans/mountain_coast",
 			.chance = 1,
-			.width = 2,
+			.width = 1,
 			.keepOriginalTerrain = 0.5,
 			.properties = .{.ocean},
 		},
