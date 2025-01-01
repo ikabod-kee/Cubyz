@@ -20,7 +20,7 @@ const Side = enum{client, server};
 pub const Sync = struct { // MARK: Sync
 
 	pub const ClientSide = struct {
-		var mutex: std.Thread.Mutex = .{};
+		pub var mutex: std.Thread.Mutex = .{};
 		var commands: main.utils.CircularBufferQueue(Command) = undefined;
 		var maxId: u32 = 0;
 		var freeIdList: main.List(u32) = undefined;
@@ -1270,11 +1270,28 @@ pub const Command = struct { // MARK: Command
 					}}, side);
 				},
 				.yes_dropsItems => |amount| {
-					if(side == .server) {
-						// TODO: Drop block items
-						_ = amount;
+					if(side == .server and gamemode != .creative) {
+						for(0..amount) |_| {
+							for(self.newBlock.blockDrops()) |drop| {
+								if(drop.chance == 1 or main.random.nextFloat(&main.seed) < drop.chance) {
+									for(drop.items) |itemStack| {
+										main.server.world.?.drop(itemStack.clone(), @as(vec.Vec3d, @floatFromInt(self.pos)) + vec.Vec3d{0.5, 0.5, 0.5}, main.random.nextFloatVectorSigned(3, &main.seed), main.random.nextFloat(&main.seed)*20);
+									}
+								}
+							}
+						}
 					}
 				},
+			}
+
+			if(side == .server and gamemode != .creative and self.oldBlock.typ != self.newBlock.typ) {
+				for(self.oldBlock.blockDrops()) |drop| {
+					if(drop.chance == 1 or main.random.nextFloat(&main.seed) < drop.chance) {
+						for(drop.items) |itemStack| {
+							main.server.world.?.drop(itemStack.clone(), @as(vec.Vec3d, @floatFromInt(self.pos)) + vec.Vec3d{0.5, 0.5, 0.5}, main.random.nextFloatVectorSigned(3, &main.seed), main.random.nextFloat(&main.seed)*20);
+						}
+					}
+				}
 			}
 		}
 
