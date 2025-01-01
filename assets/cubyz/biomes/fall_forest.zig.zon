@@ -1,8 +1,8 @@
 .{
 	.properties = .{
+		.land,
 		.wet,
 		.cold,
-		.land,
 	},
 
 	.minHeight = 25,

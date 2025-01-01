@@ -26,7 +26,7 @@
 		.{
 			.id = "cubyz:trans/widow",
 			.chance = 5,
-			.width = 2,
+			.width = 1,
 			.keepOriginalTerrain = 1,
 			.properties = .{.hot, .dry, .inland, .land},
 		},
