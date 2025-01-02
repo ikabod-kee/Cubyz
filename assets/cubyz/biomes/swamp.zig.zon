@@ -1,7 +1,6 @@
 .{
 	.properties = .{
 		.wet,
-		.hot,
 	},
 	.minHeight = 40,
 	.maxHeight = 50,

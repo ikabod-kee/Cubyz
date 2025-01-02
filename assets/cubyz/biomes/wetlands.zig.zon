@@ -1,0 +1,38 @@
+.{
+	.properties = .{
+		.wet,
+	},
+	.minHeight = -5,
+	.maxHeight = 10,
+	.roughness = 1,
+	.hills = 9,
+	.minRadius = 100,
+	.maxRadius = 160,
+	.music = "cubyz:sunrise",
+
+	.validPlayerSpawn = true,
+	
+	.ground_structure = .{
+		"cubyz:mud_grass",
+		"5 to 7 cubyz:mud",
+	},
+	.transitionBiomes = .{
+		.{
+			.id = "cubyz:trans/grassy_coast",
+			.chance = 1,
+			.width = 1,
+			.keepOriginalTerrain = 0.5,
+			.properties = .{.ocean},
+		},
+		.{
+			.id = "cubyz:trans/widow",
+			.chance = 5,
+			.width = 1,
+			.keepOriginalTerrain = 1,
+			.properties = .{.hot, .dry, .inland, .land},
+		},
+
+	},
+	.structures = .{
+	},
+}
