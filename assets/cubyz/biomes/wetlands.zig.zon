@@ -34,5 +34,27 @@
 
 	},
 	.structures = .{
+		.{
+			.id = "cubyz:ground_patch",
+			.block = "cubyz:mud",
+			.chance = 0.33,
+			.width = 5,
+			.variation = 4,
+			.depth = 1,
+			.smoothness = 0.5,
+		},
+		.{
+			.id = "cubyz:simple_tree",
+			.leaves = "cubyz:willow_leaves",
+			.log = "cubyz:willow_log",
+			.top = "cubyz:willow_top",
+			.chance = 0.1,
+			.type = .round,
+			.height = 13,
+			.height_variation = 4,
+			.leafRadius = 3,
+			.leafRadius_variation = 1,
+			.branched = false,
+		},
 	},
 }

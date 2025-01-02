@@ -12,24 +12,6 @@
 	.hills = 2,
 	
 	.rivers = true,
-
-
-	.stripes = .{
-		.{
-			.direction= .{1, 1, 5},
-			.block= "cubyz:ferrock",
-			.distance= 12,
-			.offset= 6,
-			.width= 1,
-		},
-		.{
-			.direction= .{1, 1, 5},
-			.block= "cubyz:sandstone",
-			.distance= 10,
-			.offset= 6,
-			.width= 1,
-		},
-	},
 	
 	.ground_structure = .{
 		"cubyz:grass",
@@ -63,9 +45,9 @@
 		},
 		.{
 			.id = "cubyz:simple_tree",
-			.leaves = "cubyz:mahogany_leaves",
-			.log = "cubyz:oak_log",
-			.top = "cubyz:oak_top",
+			.leaves = "cubyz:baobab_leaves",
+			.log = "cubyz:baobab_log",
+			.top = "cubyz:baobab_leaves",
 			.chance = 0.05,
 			.type = .round,
 			.height = 1,
