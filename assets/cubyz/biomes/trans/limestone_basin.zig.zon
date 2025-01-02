@@ -20,10 +20,22 @@
 	.structures = .{
 		.{
 			.id = "cubyz:simple_tree",
+			.leaves = "cubyz:baobab_leaves",
+			.log = "cubyz:baobab_log",
+			.top = "cubyz:baobab_top",
+			.chance = 0.075,
+			.type = .round,
+			.height = 1,
+			.height_variation = 7,
+			.leafRadius = 2,
+			.leafRadius_variation = 1,
+		},
+		.{
+			.id = "cubyz:simple_tree",
 			.leaves = "cubyz:oak_leaves",
 			.log = "cubyz:oak_log",
 			.top = "cubyz:oak_top",
-			.chance = 0.1,
+			.chance = 0.025,
 			.type = .round,
 			.height = 3,
 			.height_variation = 3,

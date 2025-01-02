@@ -13,7 +13,7 @@
 
 	.music = "cubyz:leaves",
 
-	.validPlayerSpawn = true,
+	.validPlayerSpawn = false,
 
 	.transitionBiomes = .{
 		.{

@@ -10,7 +10,7 @@
 	.maxRadius = 160,
 	.music = "cubyz:sunrise",
 
-	.validPlayerSpawn = true,
+	.validPlayerSpawn = false,
 	
 	.ground_structure = .{
 		"cubyz:mud_grass",

@@ -10,7 +10,7 @@
 	.roughness = 50,
 	.mountains = 50,
 	.hills = 50,
-	
+	.validPlayerSpawn = false,
 	.transitionBiomes = .{
 		.{
 			.id = "cubyz:trans/coast",

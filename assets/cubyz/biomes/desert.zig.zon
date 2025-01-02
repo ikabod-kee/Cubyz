@@ -10,7 +10,7 @@
 	.minRadius = 100,
 	.maxRadius = 160,
 	.hills = 20,
-	
+	.validPlayerSpawn = false,
 	.music = "cubyz:EasternThought",
 	
 	.ground_structure = .{

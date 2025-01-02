@@ -10,6 +10,7 @@
 	.roughness = 10,
 	.mountains = 80,
 	
+	.validPlayerSpawn = false,
 	.rivers = true,
 
 	.transitionBiomes = .{

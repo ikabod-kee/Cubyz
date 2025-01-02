@@ -2,8 +2,8 @@
 	.properties = .{
 		.wet,
 	},
-	.minHeight = 40,
-	.maxHeight = 50,
+	.minHeight = 15,
+	.maxHeight = 20,
 	.minRadius = 100,
 	.maxRadius = 160,
 	.roughness = 2,
