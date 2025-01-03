@@ -12,7 +12,7 @@
 	.rotation = .carpet,
 	.texture = "cubyz:dead_leaf_pile",
 	.item= .{
-		.texture = "yellow_leaf_pile.png",
+		.texture = "dead_leaf_pile.png",
 	},
 	.lodReplacement = "cubyz:air",
 }
