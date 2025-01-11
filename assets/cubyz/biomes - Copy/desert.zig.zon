@@ -1,0 +1,28 @@
+.{
+	.properties = .{
+		.hot,
+		.dry,
+		.barren,
+	},
+	.chance = 2,
+	.minHeight = 22,
+	.maxHeight = 40,
+	.minRadius = 150,
+	.maxRadius = 200,
+	.hills = 20,
+	.validPlayerSpawn = false,
+	.music = "cubyz:EasternThought",
+	.ground_structure = .{
+		"3 to 4 cubyz:sand",
+	},
+	.structures = .{
+		.{
+			.id = "cubyz:simple_vegetation",
+			.block = "cubyz:cactus",
+			.chance = 0.16,
+			.height = 2,
+			.height_variation = 3,
+		},
+	},
+	.stoneBlock = "cubyz:sandstone",
+}
