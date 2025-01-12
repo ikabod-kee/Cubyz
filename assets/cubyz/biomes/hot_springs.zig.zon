@@ -1,20 +1,23 @@
 .{
 	.properties = .{
-		.cold,
+		.hot,
 		.wet,
 		.barren,
 		.mountain,
 	},
-	.minHeight = 128,
-	.maxHeight = 256,
+	.minHeight = 0,
+	.maxHeight = 0,
+	.mountains = 10,
+	.roughness = 20,
 	.radius = 32,
-	.roughness = 50,
-	.mountains = 50,
-	.hills = 50,
+
+	.music = "cubyz:leaves",
+
 	.validPlayerSpawn = false,
+
 	.transitionBiomes = .{
 		.{
-			.id = "cubyz:trans/coast",
+			.id = "cubyz:trans/jungle_coast",
 			.chance = 1,
 			.keepOriginalTerrain = 0.5,
 			.width = 1,
@@ -23,8 +26,9 @@
 	},
 
 	.ground_structure = .{
-		"3 to 5 cubyz:snow",
-		"4 cubyz:frost",
+		"5 to 6 cubyz:basalt",
 	},
-	.stoneBlock = "cubyz:frost",
+
+	.structures = .{
+	},
 }

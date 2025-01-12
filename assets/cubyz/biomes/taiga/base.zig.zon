@@ -1,0 +1,53 @@
+.{
+	.properties = .{
+		.cold,
+	},
+	.minHeight = 22,
+	.maxHeight = 40,
+	.radius = 32,
+	.roughness = 10,
+	.hills = 10,
+
+	.validPlayerSpawn = true,
+	
+	.ground_structure = .{
+		"0 to 1 cubyz:grass",
+		"2 to 3 cubyz:soil",
+	},
+	.transitionBiomes = .{
+		.{
+			.id = "cubyz:trans/grassy_coast",
+			.chance = 1,
+			.width = 1,
+			.keepOriginalTerrain = 0.5,
+			.properties = .{.ocean},
+		},
+		.{
+			.id = "cubyz:trans/sparse_taiga",
+			.chance = 1,
+			.width = 2,
+			.keepOriginalTerrain = 1,
+			.properties = .{.temperate, .inland, .land},
+		},
+		.{
+			.id = "cubyz:trans/dying_taiga",
+			.chance = 1,
+			.width = 2,
+			.keepOriginalTerrain = 1,
+			.properties = .{.cold, .dry, .inland, .land},
+		},
+	},
+	.structures = .{
+		.{
+			.id = "cubyz:simple_tree",
+			.leaves = "cubyz:pine_needles",
+			.log = "cubyz:pine_log",
+			.top = "cubyz:pine_top",
+			.chance = 0.4,
+			.type = .pyramid,
+			.height = 8,
+			.height_variation = 5,
+			.branched = false,
+		},
+	},
+}

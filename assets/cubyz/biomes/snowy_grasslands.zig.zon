@@ -1,7 +1,8 @@
 .{
 	.properties = .{
 		.cold,
-		.dry,
+		.wet,
+		.barren,
 	},
 	.minHeight = 22,
 	.maxHeight = 40,
@@ -18,6 +19,18 @@
 			.width = 1,
 			.keepOriginalTerrain = 0.5,
 			.properties = .{.ocean},
+		},
+	},
+
+	.structures = .{
+		.{
+			.id = "cubyz:ground_patch",
+			.block = "cubyz:snow",
+			.chance = 0.05,
+			.width = 15,
+			.variation = 7,
+			.depth = 2,
+			.smoothness = 0.5,
 		},
 	},
 
