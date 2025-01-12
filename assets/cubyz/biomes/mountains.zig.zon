@@ -3,11 +3,11 @@
 		.mountain,
 	},
 	.minHeight = 128,
-	.maxHeight = 300,
+	.maxHeight = 256,
 	.minRadius = 64,
 	.maxRadius = 100,
-	.roughness = 10,
-	.mountains = 80,
+	.roughness = 5,
+	.mountains = 50,
 	
 	.rivers = true,
 	

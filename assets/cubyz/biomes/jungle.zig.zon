@@ -2,14 +2,14 @@
 	.properties = .{
 		.hot,
 		.wet,
+		.overgrown,
 		.mountain,
 	},
 	.minHeight = 40,
 	.maxHeight = 60,
 	.mountains = 10,
 	.roughness = 20,
-	.minRadius = 120,
-	.maxRadius = 160,
+	.radius = 32,
 
 	.music = "cubyz:leaves",
 
@@ -22,13 +22,6 @@
 			.keepOriginalTerrain = 0.5,
 			.width = 1,
 			.properties = .{.ocean},
-		},
-		.{
-			.id = "cubyz:trans/sparse_jungle",
-			.chance = 1,
-			.keepOriginalTerrain = 0.2,
-			.width = 2,
-			.properties = .{.inland, .land, .lowTerrain},
 		},
 	},
 

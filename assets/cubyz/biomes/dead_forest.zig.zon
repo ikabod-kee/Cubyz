@@ -1,13 +1,13 @@
 .{
 	.properties = .{
 		.cold,
+		.wet,
 	},
 		
 
 	.minHeight = 30,
 	.maxHeight = 50,
-	.minRadius = 100,
-	.maxRadius = 160,
+	.radius = 32,
 	.roughness = 10,
 	.hills = 10,
 	

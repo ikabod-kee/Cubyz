@@ -1,12 +1,10 @@
 .{
 	.properties = .{
 		.hot,
-		.land,
 	},
 	.minHeight = 24,
 	.maxHeight = 60,
-	.minRadius = 100,
-	.maxRadius = 160,
+	.radius = 32,
 	.roughness = 20,
 	.hills = 10,
 	.rivers = true,

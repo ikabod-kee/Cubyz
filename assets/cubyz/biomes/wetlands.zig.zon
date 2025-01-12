@@ -1,13 +1,13 @@
 .{
 	.properties = .{
 		.wet,
+		.overgrown,
 	},
 	.minHeight = -5,
 	.maxHeight = 5,
 	.roughness = 2,
 	.hills = 10,
-	.minRadius = 100,
-	.maxRadius = 160,
+	.radius = 32,
 	.music = "cubyz:sunrise",
 
 	.validPlayerSpawn = false,

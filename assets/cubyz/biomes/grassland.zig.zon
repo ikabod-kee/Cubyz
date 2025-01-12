@@ -1,12 +1,12 @@
 .{
 	.properties = .{
+		.dry,
 	},
 	.minHeight = 22,
 	.maxHeight = 40,
 	.roughness = 1,
 	.hills = 5,
-	.minRadius = 100,
-	.maxRadius = 160,
+	.radius = 32,
 	.music = "cubyz:sunrise",
 
 	.validPlayerSpawn = true,

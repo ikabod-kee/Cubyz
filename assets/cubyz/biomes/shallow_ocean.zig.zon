@@ -3,11 +3,10 @@
 		.ocean,
 		.wet,
 	},
-	.minRadius = 100,
-	.maxRadius = 160,
+	.radius = 32,
 	.minHeight = -64,
 	.maxHeight = -32,
-	.chance = 30,
+	.chance = 1,
 	.roughness = 15,
 	.hills = 15,
 	

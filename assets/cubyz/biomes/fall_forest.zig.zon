@@ -1,14 +1,11 @@
 .{
 	.properties = .{
-		.land,
-		.wet,
 		.cold,
 	},
 
 	.minHeight = 25,
 	.maxHeight = 45,
-	.minRadius = 100,
-	.maxRadius = 160,
+	.radius = 32,
 	.chance = 0.25,
 	.roughness = 10,
 	.hills = 10,
@@ -28,13 +25,6 @@
 			.width = 1,
 			.keepOriginalTerrain = 0.5,
 			.properties = .{.ocean},
-		},
-		.{
-			.id = "cubyz:mixed_fall_forest",
-			.chance = 1,
-			.width = 2,
-			.keepOriginalTerrain = 1,
-			.properties = .{.cold, .neitherWetNorDry, .land, .inland, .lowTerrain},
 		},
 	},
 

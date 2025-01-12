@@ -3,11 +3,11 @@
 		.hot,
 		.wet,
 		.mountain,
+		.barren,
 	},
 	.minHeight = 128,
 	.maxHeight = 300,
-	.minRadius = 100,
-	.maxRadius = 160,
+	.radius = 32,
 	.roughness = 10,
 	.mountains = 100,
 

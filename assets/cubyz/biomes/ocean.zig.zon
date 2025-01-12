@@ -4,11 +4,10 @@
 		.wet,
 		.antiMountain,
 	},
-	.minRadius = 100,
-	.maxRadius = 160,
+	.radius = 32,
 	.minHeight = -128,
 	.maxHeight = -80,
-	.chance = 30,
+	.chance = 1,
 	.roughness = 15,
 	.hills = 15,
 	

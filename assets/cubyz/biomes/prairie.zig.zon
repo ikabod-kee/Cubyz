@@ -1,6 +1,8 @@
 .{
 	.properties = .{
-		.dry
+		.hot,
+		.dry,
+		.overgrown,
 	},
 	.minHeight = 40,
 	.maxHeight = 44,

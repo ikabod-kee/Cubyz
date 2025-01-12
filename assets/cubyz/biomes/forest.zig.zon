@@ -1,12 +1,9 @@
 .{
 	.properties = .{
-		.wet,
-		.land,
 	},
 	.minHeight = 22,
 	.maxHeight = 40,
-	.minRadius = 100,
-	.maxRadius = 160,
+	.radius = 32,
 	.roughness = 10,
 	.hills = 10,
 	
@@ -31,14 +28,7 @@
 			.chance = 1,
 			.width = 2,
 			.keepOriginalTerrain = 1,
-			.properties = .{.neitherWetNorDry, .temperate, .land, .inland},
-		},
-		.{
-			.id = "cubyz:trans/fall_forest",
-			.chance = 1,
-			.width = 2,
-			.keepOriginalTerrain = 1,
-			.properties = .{.wet, .cold, .land, .inland},
+			.properties = .{.dry, .temperate, .land, .inland},
 		},
 		.{
 			.id = "cubyz:trans/tree_widow",

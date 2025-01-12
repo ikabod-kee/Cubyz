@@ -2,14 +2,14 @@
 	.properties = .{
 		.hot,
 		.wet,
+		.barren,
 		.mountain,
 	},
 	.minHeight = 0,
 	.maxHeight = 0,
 	.mountains = 10,
 	.roughness = 20,
-	.minRadius = 48,
-	.maxRadius = 128,
+	.radius = 32,
 
 	.music = "cubyz:leaves",
 
