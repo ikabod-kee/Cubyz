@@ -2,11 +2,13 @@
 	.properties = .{
 		.mountain,
 		.barren,
+		.cold,
 		.dry,
 	},
 	.minHeight = 128,
 	.maxHeight = 300,
-	.radius = 32,
+	.minRadius = 100,
+	.maxRadius = 160,
 	.roughness = 10,
 	.mountains = 100,
 	

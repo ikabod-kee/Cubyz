@@ -1,13 +1,16 @@
 .{
 	.properties = .{
 		.cold,
+		.barren,
 		.dry,
 	},
 	.minRadius = 100,
 	.maxRadius = 160,
 	.minHeight = 20,
 	.maxHeight = 40,
-	.mountains = 30,
+	.hills = 15,
+	.roughness = 15,
+	.mountains = 15,
 	
 	.music = "cubyz:sunrise",
 	
@@ -22,8 +25,9 @@
 	},
 
 	.ground_structure = .{
-		"cubyz:grass",
-		"0 to 1 cubyz:soil",
+		"cubyz:dry_grass",
+		"2 cubyz:chalk/white",
+		"1 to 2 cubyz:chalk/grey",
 	},
 	.structures = .{
 		.{
@@ -31,29 +35,29 @@
 			.leaves = "cubyz:oak_leaves",
 			.log = "cubyz:oak_log",
 			.top = "cubyz:oak_top",
-			.chance = 0.01,
+			.chance = 0.005,
 			.type = .round,
-			.height = 6,
-			.height_variation = 3,
+			.height = 1,
+			.height_variation = 1,
 		},
 		.{
 			.id = "cubyz:boulder",
 			.chance = 0.008,
-			.block = "cubyz:cobblestone",
+			.block = "cubyz:chalk/white",
 			.size = 5,
 			.size_variance = 3,
 		},
 		.{
 			.id = "cubyz:boulder",
 			.chance = 0.016,
-			.block = "cubyz:cobblestone",
+			.block = "cubyz:chalk/white",
 			.size = 2,
 			.size_variance = 5,
 		},
 		.{
 			.id = "cubyz:boulder",
 			.chance = 0.032,
-			.block = "cubyz:cobblestone",
+			.block = "cubyz:chalk/white",
 			.size = 1,
 			.size_variance = 6,
 		},

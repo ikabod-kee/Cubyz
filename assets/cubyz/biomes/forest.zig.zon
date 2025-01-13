@@ -3,7 +3,8 @@
 	},
 	.minHeight = 22,
 	.maxHeight = 40,
-	.radius = 32,
+	.minRadius = 100,
+	.maxRadius = 160,
 	.roughness = 10,
 	.hills = 10,
 	

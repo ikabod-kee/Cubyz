@@ -21,11 +21,11 @@
 
 	.parentBiomes = .{
 		.{
-			.id = "cubyz:beach",
-			.chance = 2,
+			.id = "cubyz:rocky_grassland",
+			.chance = 32,
 		},
 		.{
-			.id = "cubyz:rocky_grassland",
+			.id = "cubyz:stonelands",
 			.chance = 32,
 		},
 		.{
@@ -45,7 +45,7 @@
 			.chance = 2,
 		},
 		.{
-			.id = "cubyz:taiga",
+			.id = "cubyz:taiga/base",
 			.chance = 3,
 		},
 		.{

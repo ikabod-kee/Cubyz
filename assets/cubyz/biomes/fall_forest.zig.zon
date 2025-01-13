@@ -5,7 +5,8 @@
 
 	.minHeight = 25,
 	.maxHeight = 45,
-	.radius = 32,
+	.minRadius = 100,
+	.maxRadius = 160,
 	.chance = 0.25,
 	.roughness = 10,
 	.hills = 10,

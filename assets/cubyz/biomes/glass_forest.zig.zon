@@ -1,9 +1,10 @@
 .{
 	.chance = 0.25,
 	.properties = .{
-		.antiMountain
-		.inland
-		.temperate
+		.cold,
+		.inland,
+		.barren,
+		.dry,
 	},
 	.minHeight = 22,
 	.maxHeight = 40,
