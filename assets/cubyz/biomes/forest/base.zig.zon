@@ -7,50 +7,33 @@
 	.maxRadius = 160,
 	.roughness = 10,
 	.hills = 10,
-	
 	.music = "cubyz:leaves",
-
 	.validPlayerSpawn = true,
-	
 	.ground_structure = .{
 		"cubyz:grass",
 		"2 to 3 cubyz:soil",
 	},
 	.transitionBiomes = .{
 		.{
-			.id = "cubyz:trans/grassy_coast",
-			.chance = 1,
-			.width = 1,
-			.keepOriginalTerrain = 0.5,
-			.properties = .{.ocean},
-		},
-		.{
-			.id = "cubyz:trans/sparse_trees",
+			.id = "cubyz:forest/sparse",
 			.chance = 1,
 			.width = 2,
 			.keepOriginalTerrain = 1,
 			.properties = .{.dry, .temperate, .land, .inland},
 		},
 		.{
-			.id = "cubyz:trans/tree_widow",
+			.id = "cubyz:forest/widow",
 			.chance = 1,
 			.width = 2,
 			.keepOriginalTerrain = 1,
 			.properties = .{.dry, .hot, .land, .inland},
 		},
 		.{
-			.id = "cubyz:trans/meadow",
+			.id = "cubyz:forest/meadow",
 			.chance = 1,
 			.width = 2,
 			.keepOriginalTerrain = 1,
 			.properties = .{.dry, .cold, .land, .inland},
-		},
-		.{
-			.id = "cubyz:trans/meadow",
-			.chance = 1,
-			.width = 2,
-			.keepOriginalTerrain = 1,
-			.properties = .{.dry, .temperate, .land, .inland},
 		},
 	},
 
