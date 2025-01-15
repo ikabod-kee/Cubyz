@@ -19,21 +19,7 @@
 			.chance = 1,
 			.width = 2,
 			.keepOriginalTerrain = 1,
-			.properties = .{.dry, .temperate, .land, .inland},
-		},
-		.{
-			.id = "cubyz:forest/widow",
-			.chance = 1,
-			.width = 2,
-			.keepOriginalTerrain = 1,
-			.properties = .{.dry, .hot, .land, .inland},
-		},
-		.{
-			.id = "cubyz:forest/meadow",
-			.chance = 1,
-			.width = 2,
-			.keepOriginalTerrain = 1,
-			.properties = .{.dry, .cold, .land, .inland},
+			.properties = .{.dry, .land, .inland},
 		},
 	},
 
