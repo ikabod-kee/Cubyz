@@ -1,0 +1,12 @@
+.{
+	.texture = "copper_ingot.png",
+	.material = .{
+		.density = 1.25,
+		.resistance = 2.0,
+		.power = 3.0,
+		.roughness = 0.1,
+		.colors = .{
+			0xff903B04, 0xffD05A1A, 0xffDD6834, 0xffF4BB7C, 0xffF0985E,
+		},
+	},
+}

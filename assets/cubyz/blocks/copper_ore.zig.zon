@@ -1,11 +1,11 @@
 .{
 	.class = .stone,
-	.blockHealth = 35,
-	.breakingPower = 6,
+	.blockHealth = 32.5,
+	.breakingPower = 3,
 	.ore = .{
-		.veins = 3,
-		.size = 16,
-		.height = -32,
+		.veins = 4,
+		.size = 20,
+		.height = 16,
 		.density = 0.25,
 	},
 	.drops = .{
@@ -13,8 +13,8 @@
 	},
 	.rotation = .ore,
 	.model = "cubyz:cube",
-	.texture = "cubyz:iron_ore",
+	.texture = "cubyz:copper_ore",
 	.item = .{
-		.texture = "raw_iron.png",
+		.texture = "raw_copper.png",
 	},
 }
