@@ -157,7 +157,7 @@ const TextureGenerator = struct { // MARK: TextureGenerator
 		11, 11, 11, 11, 11,
 		14, 14, 14, 14, 14,
 	};
-	
+
 	/// Contains the material(s) of a single pixel and tries to avoid multiple materials.
 	const PixelData = struct {
 		maxNeighbors: u8 = 0,
@@ -389,7 +389,7 @@ const TextureGenerator = struct { // MARK: TextureGenerator
 				if(hasDifferentItems) {
 					heightMap[x][y] -= 1;
 				}
-				
+
 				// Take into account further neighbors with lower priority:
 				dx = -2;
 				while(dx <= 1) : (dx += 1) {
@@ -423,7 +423,7 @@ const TextureGenerator = struct { // MARK: TextureGenerator
 				}
 			}
 		}
-		
+
 		var seed: u64 = tool.seed;
 		random.scrambleSeed(&seed);
 
@@ -999,7 +999,7 @@ pub const Tool = struct { // MARK: Tool
 		}
 		return self.texture.?;
 	}
-	
+
 	fn getTooltip(self: *Tool) []const u8 {
 		self.tooltip.clearRetainingCapacity();
 		self.tooltip.writer().print(
@@ -1054,9 +1054,7 @@ pub const Item = union(enum) { // MARK: Item
 
 	pub fn deinit(self: Item) void {
 		switch(self) {
-			.baseItem => {
-				
-			},
+			.baseItem => {},
 			.tool => |_tool| {
 				_tool.deinit();
 			},
@@ -1184,10 +1182,12 @@ pub const ItemStack = struct { // MARK: ItemStack
 	}
 };
 
-const Recipe = struct { // MARK: Recipe
+pub const Recipe = struct { // MARK: Recipe
 	sourceItems: []*BaseItem,
 	sourceAmounts: []u16,
-	resultItem: ItemStack,
+	resultItem: *BaseItem,
+	resultAmount: u16,
+	cachedInventory: ?Inventory = null,
 };
 
 var arena: main.utils.NeverFailingArenaAllocator = undefined;
@@ -1244,7 +1244,8 @@ fn parseRecipe(zon: ZonElement) !Recipe {
 	const recipe = Recipe {
 		.sourceItems = arena.allocator().alloc(*BaseItem, inputs.len),
 		.sourceAmounts = arena.allocator().alloc(u16, inputs.len),
-		.resultItem = output,
+		.resultItem = output.item.?.baseItem,
+		.resultAmount = output.amount,
 	};
 	errdefer {
 		arena.allocator().free(recipe.sourceAmounts);
@@ -1267,6 +1268,11 @@ pub fn registerRecipes(zon: ZonElement) void {
 
 pub fn reset() void {
 	reverseIndices.clearAndFree();
+	for(recipeList.items) |recipe| {
+		if(recipe.cachedInventory) |inv| {
+			inv.deinit(main.globalAllocator);
+		}
+	}
 	recipeList.clearAndFree();
 	itemListSize = 0;
 	_ = arena.reset(.free_all);
@@ -1274,6 +1280,11 @@ pub fn reset() void {
 
 pub fn deinit() void {
 	reverseIndices.clearAndFree();
+	for(recipeList.items) |recipe| {
+		if(recipe.cachedInventory) |inv| {
+			inv.deinit(main.globalAllocator);
+		}
+	}
 	recipeList.clearAndFree();
 	arena.deinit();
 	Inventory.Sync.ClientSide.deinit();
