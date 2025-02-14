@@ -1,0 +1,20 @@
+.{
+	.isCave = true,
+	.maxHeight = -16,
+	.minHeight = -5012,
+	.fogDensity = 5,
+	.music = "cubyz:heart-of-the-beast",
+	.stoneBlock = "cubyz:sandstone",
+	.ground_structure = .{
+		"cubyz:sand",
+	},
+	.structures = .{
+		.{
+			.id = "cubyz:boulder",
+			.chance = 0.05,
+			.block = "cubyz:sandstone",
+			.size = 4,
+			.size_variance = 4,
+		},
+	},
+}
