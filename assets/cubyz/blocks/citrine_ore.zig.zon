@@ -2,30 +2,19 @@
 	.class = .stone,
 	.blockHealth = 45,
 	.breakingPower = 7,
-	.material = .{
-			.density = 2.75,
-			.strength = 6.0,
-			.elasticity = 0.5,
-			.grip = 0.5,
-			.hardness = 7.0,
-		.textureRoughness = 0.1,
-		.colors = .{
-			0xffea3e00, 0xfff95800, 0xffff8a2d, 0xffffce7e, 0xffffffff,
-		},
-	},
 	.ore = .{
-		.veins = 4,
-		.size = 20,
-		.height = 20,
+		.veins = 1,
+		.size = 2,
+		.height = -256,
 		.density = 0.25,
 	},
 	.drops = .{
-		.{.items = .{.auto}},
+		.{.items = .{"cubyz:citrine"}},
 	},
 	.rotation = .ore,
 	.model = "cubyz:cube",
 	.texture = "cubyz:citrine_ore",
 	.item = .{
-		.texture = "citrine.png",
+		.texture = "citrine_pebbles.png",
 	},
 }
