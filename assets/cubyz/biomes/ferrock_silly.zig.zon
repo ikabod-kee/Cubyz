@@ -1,0 +1,38 @@
+.{
+	.properties = .{
+		.hot,
+		.dry,
+		.barren,
+	},
+	.minHeight = 32,
+	.maxHeight = 64,
+	.minRadius = 8,
+	.maxRadius = 24,
+	.chance = 0,
+	.hills = 20,
+	.validPlayerSpawn = false,
+	.music = "cubyz:EasternThought",
+	.stripes = .{
+		.{
+			.direction = .{1, 1, 5},
+			.block = "cubyz:limestone",
+			.distance = 12,
+			.offset = 6,
+			.width = 8,
+		},
+		.{
+			.direction = .{1, 1, 5},
+			.block = "cubyz:sandstone",
+			.distance = 10,
+			.offset = 6,
+			.width = 4,
+		},
+	},
+	.parentBiomes = .{
+		.{
+			.id = "cubyz:ferrock_mountains",
+			.chance = 12,
+		},
+	},
+	.stoneBlock = "cubyz:ferrock",
+}

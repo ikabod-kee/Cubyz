@@ -1,0 +1,25 @@
+.{
+	.properties = .{
+		.hot,
+		.dry,
+		.barren,
+	},
+	.minHeight = 47,
+	.maxHeight = 64,
+	.minRadius = 24,
+	.maxRadius = 56,
+	.chance = 0,
+	.hills = 16,
+	.validPlayerSpawn = false,
+	.music = "cubyz:EasternThought",
+	.ground_structure = .{
+		"4 to 5 cubyz:sand",
+	},
+	.parentBiomes = .{
+		.{
+			.id = "cubyz:desert/base",
+			.chance = 16,
+		},
+	},
+	.stoneBlock = "cubyz:sandstone",
+}
