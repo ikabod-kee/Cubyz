@@ -38,6 +38,13 @@
 	},
 	.transitionBiomes = .{
 		.{
+			.id = "cubyz:chalk_cliffs/base",
+			.chance = 1,
+			.width = 2,
+			.properties = .{.cold, .dry, .land, .inland},
+			.keepOriginalTerrain = 0.5,
+		},
+		.{
 			.id = "cubyz:beach",
 			.chance = 1,
 			.width = 1,
