@@ -9,8 +9,8 @@
 		.material = .{
 			.density = 2.5,
 			.strength = 1.5,
-			.elasticity = 0.0,
-			.grip = 0.0,
+			.elasticity = 0.05,
+			.grip = -0.5,
 			.hardness = 2.5,
 			.textureRoughness = 2.0,
 			.colors = .{
@@ -19,7 +19,7 @@
 			.modifiers = .{
 				.{
 					.id = "fragile",
-					.strength = 0.35,
+					.strength = 0.33,
 				},
 			},
 		},

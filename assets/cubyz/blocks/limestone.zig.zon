@@ -1,7 +1,7 @@
 .{
 	.tags = .{.stone},
-	.blockHealth = 27.5,
-	.blockResistance = 1,
+	.blockHealth = 26.75,
+	.blockResistance = 1.25,
 	.drops = .{
 		.{.items = .{.auto}},
 	},
@@ -19,7 +19,7 @@
 			.modifiers = .{
 				.{
 					.id = "fragile",
-					.strength = 0.20,
+					.strength = 0.25,
 				},
 			},
 		},
