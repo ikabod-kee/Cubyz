@@ -1,0 +1,5 @@
+.{
+	.absorbedLight = 0x010101,
+	.texture = "cubyz:glass/framed",
+	.hasBackFace = false,
+}
