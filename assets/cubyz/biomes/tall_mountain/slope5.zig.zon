@@ -7,7 +7,7 @@
 	.interpolation = .linear,
 	.chance = 0,
 
-	.music = "mustest:totaldemented/sense_of_wonder",
+	.music = "mustest:verdisquo/reflections_of_our_past",
 
 	.parentBiomes = .{
 		.{

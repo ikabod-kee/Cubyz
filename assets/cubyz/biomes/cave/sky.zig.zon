@@ -3,7 +3,7 @@
 	.minHeight = 0,
 	.maxHeight = 7000,
 	.caveNoiseStrength = 10,
-	.music = "mustest:totaldemented/looking_up",
+	.music = "mustest:luciano/gormless",
 
 	.ground_structure = .{},
 	.caveModels = .{

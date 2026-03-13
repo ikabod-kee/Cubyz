@@ -10,7 +10,7 @@
 
 	.soilCreep = 1.5,
 
-	.music = "mustest:luciano/gormless",
+	.music = "mustest:madception/for_davy",
 
 	.parentBiomes = .{
 		.{

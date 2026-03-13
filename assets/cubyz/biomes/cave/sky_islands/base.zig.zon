@@ -1,6 +1,6 @@
 .{
 	.chance = 1,
-
+	.music = "mustest:bigwilly/theramin",
 	.caveModels = .{
 		.{
 			.id = "cubyz:partial_sphere",

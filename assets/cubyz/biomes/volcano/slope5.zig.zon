@@ -9,7 +9,7 @@
 	.interpolation = .linear,
 	.chance = 0,
 
-	.music = "mustest:ashgrove/contradiction",
+	.music = "mustest:ikabod/behind",
 
 	.parentBiomes = .{
 		.{
