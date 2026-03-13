@@ -10,6 +10,7 @@
 	.roughness = 1,
 	.hills = 8,
 	.chance = 0.01,
+	.music = "mustest:luciano/snaledance",
 	.validPlayerSpawn = false,
 	.stoneBlock = "cubyz:cloth/block/grey",
 	.ground_structure = .{

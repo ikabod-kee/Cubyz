@@ -11,6 +11,7 @@
 	.roughness = 1,
 	.hills = 8,
 	.validPlayerSpawn = false,
+	.music = "mustest:luciano/snaledance",
 	.stoneBlock = "cubyz:cloth/block/grey",
 	.ground_structure = .{
 		"1 cubyz:cloth/brown:0b111111",

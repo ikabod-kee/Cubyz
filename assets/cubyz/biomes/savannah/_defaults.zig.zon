@@ -1,6 +1,6 @@
 .{
 	.fogDensity = 1.5,
 	.fogColor = 0xe9f2e2,
-	.music = "mustest:chrythm/chrythm_cubyz",
+	.music = "mustest:mischol/desert_firefly",
 
 }

@@ -9,6 +9,7 @@
 	.mountains = 4,
 	.hills = 20,
 	.stoneBlock = "cubyz:cloth/block/grey",
+	.music = "mustest:luciano/snaledance",
 	.stripes = .{
 		.{
 			.direction = .{1, 1, 1},
