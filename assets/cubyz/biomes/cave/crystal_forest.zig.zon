@@ -6,7 +6,7 @@
 
 	.crystals = 32,
 
-	.music = "cubyz:leaves",
+	.music = "mustest:mischol/crystals",
 
 	.stoneBlock = "cubyz:slate/base",
 	.ground_structure = .{

@@ -4,7 +4,7 @@
 	.minHeight = -48250,
 	.chance = 0.2,
 	.fogDensity = 8,
-
+	.music = "mustest:totaldemented/scoria",
 	.stoneBlock = "cubyz:basalt/base",
 	.structures = .{
 		.{

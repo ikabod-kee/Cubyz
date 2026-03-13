@@ -7,7 +7,7 @@
 	.caveRadiusFactor = -1,
 	.crystals = 32,
 
-	.music = "cubyz:la_kubisa_caverna",
+	.music = "mustest:ashgrove/rhizome",
 	.stoneBlock = "cubyz:slate/base",
 	.structures = .{
 		.{

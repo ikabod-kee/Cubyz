@@ -5,7 +5,7 @@
 	.chance = 0.01,
 	.maxHeight = -5000,
 	.minHeight = -48250,
-	.music = "cubyz:cubyz",
+	.music = "mustest:totaldemented/root",
 	.stoneBlock = "cubyz:chalk/black",
 
 	.ground_structure = .{

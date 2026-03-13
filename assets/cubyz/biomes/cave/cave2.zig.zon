@@ -1,11 +1,11 @@
 .{
 	.isCave = true,
-	.maxHeight = 0,
-	.minHeight = -512,
+	.maxHeight = -512,
+	.minHeight = -48250,
 
 	.fogDensity = 2,
 	.caveNoiseStrength = 10,
-	.music = "mustest:qonundrai/falling_someplace_nice",
+	.music = "mustest:totaldemented/in_the_depths",
 
 	.structures = .{
 		.{

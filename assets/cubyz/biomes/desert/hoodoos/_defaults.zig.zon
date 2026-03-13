@@ -6,6 +6,7 @@
 	},
 	.fogDensity = 1.5,
 	.fogColor = 0xe9f2e2,
+	.music = "mustest:mischol/desert_firefly",
 	.stripes = .{
 		.{
 			.direction = .{1, 1, 6},

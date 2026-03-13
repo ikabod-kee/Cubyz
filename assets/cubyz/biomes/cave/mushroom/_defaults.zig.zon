@@ -1,7 +1,7 @@
 .{
 	.isCave = true,
 	.fogDensity = 2,
-	.music = "cubyz:heart-of-the-beast",
+	.music = "mustest:totaldemented/mycelia",
 	.structures = .{
 		.{
 			.id = "cubyz:ground_patch",
