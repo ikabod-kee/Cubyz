@@ -8,8 +8,6 @@
 	.fogDensity = 10,
 	.fogColor = 0x57575e,
 
-	.music = "mustest:totaldemented/in_the_depths",
-
 	.structures = .{
 		.{
 			.id = "cubyz:stalagmite",

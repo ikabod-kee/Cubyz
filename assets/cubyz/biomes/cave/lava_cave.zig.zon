@@ -6,6 +6,7 @@
 	.chance = 0.1,
 	.fogColor = 0x51240c,
 	.stoneBlock = "cubyz:obsidian",
+	.music = "mustest:totaldemented/scoria",
 	.stripes = .{
 		.{
 			.direction = .{4, 1, 3},

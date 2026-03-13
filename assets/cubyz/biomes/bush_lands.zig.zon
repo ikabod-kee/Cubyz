@@ -13,7 +13,7 @@
 	.hills = 10,
 	.rivers = true,
 
-	.music = "mustest:d3viousrodent/reflect_infinity",
+	.music = "mustest:mischol/simmer",
 
 	.ground_structure = .{
 		"cubyz:grass",
