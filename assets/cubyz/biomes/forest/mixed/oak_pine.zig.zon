@@ -9,7 +9,7 @@
 	.maxRadius = 320,
 	.roughness = 10,
 	.hills = 12,
-	.music = "cubyz:leaves",
+	.music = "mustest:totaldemented/filled_with_love",
 	.validPlayerSpawn = true,
 	.ground_structure = .{
 		"cubyz:grass",

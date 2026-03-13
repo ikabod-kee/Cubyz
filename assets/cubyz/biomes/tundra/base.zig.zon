@@ -16,6 +16,7 @@
 	.ground_structure = .{
 		"0 to 1 cubyz:cold_grass",
 	},
+	.music = "mustest:totaldemented/frigid_feeling",
 	.structures = .{
 		.{
 			.id = "cubyz:flower_patch",

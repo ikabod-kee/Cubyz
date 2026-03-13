@@ -15,7 +15,7 @@
 	.roughness = 50,
 	.mountains = 50,
 	.hills = 50,
-
+	.music = "mustest:ogstardong/moonlitten_ice",
 	.ground_structure = .{
 		"3 to 5 cubyz:snow",
 		"4 cubyz:frost",

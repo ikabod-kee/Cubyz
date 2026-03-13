@@ -16,6 +16,7 @@
 		"0 to 1 cubyz:grass",
 		"2 to 3 cubyz:soil",
 	},
+	.music = "mustest:totaldemented/filled_with_love",
 	.structures = .{
 		.{
 			.id = "cubyz:sbb",

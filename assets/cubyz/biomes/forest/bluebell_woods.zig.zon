@@ -10,7 +10,7 @@
 	.roughness = 5,
 	.hills = 2,
 	.chance = 0.3,
-	.music = "cubyz:leaves",
+	.music = "mustest:grayvibes/mornings",
 	.validPlayerSpawn = true,
 	.ground_structure = .{
 		"cubyz:grass",

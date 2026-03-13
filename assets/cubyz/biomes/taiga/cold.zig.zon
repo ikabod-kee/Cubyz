@@ -3,6 +3,7 @@
 		.cold,
 		.wet,
 	},
+	.music = "mustest:totaldemented/frigid_feeling",
 	.minHeightLimit = 7,
 	.minHeight = 22,
 	.maxHeight = 40,

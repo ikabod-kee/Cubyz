@@ -18,6 +18,7 @@
 	.hills = 50,
 	.validPlayerSpawn = false,
 	.rivers = true,
+	.music = "mustest:ikabod/live",
 	.stripes = .{
 		.{
 			.direction = .{1, 1, 5},
