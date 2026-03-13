@@ -11,8 +11,6 @@
 
 	.hills = 10,
 
-	.music = "cubyz:tides",
-
 	.ground_structure = .{
 		"2 to 4 cubyz:gravel",
 	},

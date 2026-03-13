@@ -6,7 +6,7 @@
 	.minHeight = -10,
 	.maxHeight = -10,
 
-	.music = "cubyz:Sincerely",
+	.music = "mustest:sinanimea/under_the_water_sky",
 
 	.radius = 64,
 

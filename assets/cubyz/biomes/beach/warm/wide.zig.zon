@@ -11,7 +11,7 @@
 
 	.hills = 5,
 
-	.music = "cubyz:tides",
+	.music = "mustest:sinanimea/under_the_water_sky",
 
 	.stoneBlock = "cubyz:sandstone/base",
 	.ground_structure = .{

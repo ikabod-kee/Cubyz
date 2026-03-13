@@ -1,4 +1,5 @@
 .{
 	.fogDensity = 2,
 	.fogColor = 0xb0e9d2,
+	.music = "mustest:d3viousrodent/slimy_frogs",
 }

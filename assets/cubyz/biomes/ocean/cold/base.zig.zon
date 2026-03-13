@@ -14,7 +14,6 @@
 	.roughness = 20,
 	.hills = 10,
 
-	.music = "cubyz:under_the_water_sky",
 
 	.ground_structure = .{
 		"1 to 2 cubyz:slate/cobble",
